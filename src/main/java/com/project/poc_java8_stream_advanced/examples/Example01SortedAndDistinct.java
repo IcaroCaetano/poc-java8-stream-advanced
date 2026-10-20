@@ -35,8 +35,7 @@ public class Example01SortedAndDistinct {
                 .sorted((a, b) -> b.compareTo(a))
                 .collect(Collectors.toList());
 
-        System.out.println("Descending numbers: " + descendingNumbers
-        );
+        System.out.println("Descending numbers: " + descendingNumbers);
 
         /**
          * Original numbers: [5, 2, 8, 2, 1, 5, 9, 3, 1]
